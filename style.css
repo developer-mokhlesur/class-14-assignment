@@ -1,0 +1,246 @@
+/***** DEFULT CSS *****/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    max-width: 100%; 
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/***** HEADER SECTION *****/
+.header{
+    background:#fff;
+}
+.header ul{
+    text-align: center;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a {
+    display: inline-block;
+    background: #48DBFB;
+    padding: 15px 30px;
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    transition: 0.5s;
+}
+.header ul li a:hover{
+    background: #fff;
+    color:#48DBFB;
+}
+.header ul li a::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background: #000;
+    transition: 0.5s;
+}
+.header ul li a:hover::after{
+    width: 60%;
+    left: 20%; 
+}
+/***** BANNER SECTION *****/
+.banner{
+    background: #48DBFB;
+    padding: 80px 0;
+    text-align: center;
+    margin-top: 12px;
+}
+.banner h5 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #f4f4f4;
+}
+.banner h2 {
+    font-size: 54px;
+    color: #f4f4f4;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.banner span a{
+    display: inline-block;
+    padding: 20px 25px;
+    background: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #dddddd;
+    border-radius: 11px;
+    position: relative;
+    /* overflow: hidden; */
+    z-index: 1;
+    transition: 0.5s;
+}
+.banner span a:hover{
+    color: #fff;
+}
+.banner span a::after{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    transition: 0.5s;
+    z-index: -1;
+}
+.banner span a:hover::after{
+    width: 100%;
+   
+}
+/***** CONTENT SECTION *****/
+.content {
+    background: #F7F9F9;
+    padding-top: 156px;
+    padding-bottom: 100px;
+}
+.content-text h1 {
+    font-size: 29px;
+    text-align: center;
+    margin-top: -88px;
+}
+.content-text p {
+    text-align: center;
+    margin-bottom: 39px;
+    color: #8b8891;
+}
+.portfolio{
+    text-align: center;
+}
+.p-box img{
+    height: 100%;
+    width: 100%; 
+    transition: 0.5s;
+}
+.p-box {
+    height: 200px;
+    width: 22%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.img1:hover img{
+    transform:rotate(360deg) ;
+}
+.img2:hover img{
+    transform: rotate(20deg);
+}
+.img3:hover img{
+    transform: rotate(-25deg);
+}
+.img4:hover img{
+    transform: rotate(-30deg);
+}
+.img5:hover img{
+    transform:rotate(50deg)  scale(1.1);
+}
+.img6:hover img{
+    transform:rotate(-360deg) ;
+}
+.img7:hover img{
+    transform:scale(1.2) ;
+}
+.img8:hover img{
+    transform:scale(1.3) ;
+}
+/***** CONTECT SECTION-2 *****/
+.content-text-2 {
+    text-align: center;
+    width: 100%;
+}
+.content-text-2 h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.content-text-2 P {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 24px;
+    line-height: 30px;
+    color: #8b8891;
+}
+.main-button{
+    text-align: center;
+}
+.button{
+   font-size: 20px;
+   display: inline-block;
+   
+   font-weight: 500;
+}
+.btn-1{
+    background: #000;
+   color: #fff;
+   display: inline-block;
+   padding: 20px 30px;
+   transform: rotate(-45deg);
+   transition: 0.5s;
+   
+}
+.btn-2 {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 0 220px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.btn-3{
+    background: #000;
+   color: #fff;
+   display: inline-block;
+   padding: 20px 30px;
+   transform: rotate(45deg);
+   transition: 0.5s;
+  
+}
+.btn-1:hover{
+    transform: rotate(0deg) scale(1.1);
+    background: #48DBFB;
+    color: #000;
+}
+.btn-2:hover{
+    transform: scale(1.1);
+    background: #48DBFB;
+    color: #000;
+}
+.btn-3:hover{
+    transform: rotate(0deg) scale(1.1);
+    background: #48DBFB;
+    color: #000;
+}
+/***** FOOTER SECTION *****/
+.footer{
+  background: #2E2F31;
+  margin-bottom: 20px;
+}
+.footer p{
+   
+    padding: 20px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
